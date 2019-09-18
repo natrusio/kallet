@@ -5,9 +5,7 @@ import app from './app';
 const webRoutes = [
   {
     path: '/',
-    name: 'Home',
-    component: HomeLayout,
-    meta: { requiresAuth: false }
+    redirect:'privacy-policy'
   },
   {
     path: '/create-wallet',
