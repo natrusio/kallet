@@ -1,4 +1,3 @@
-import HomeLayout from '@/layouts/HomeLayout';
 import CreateWalletLayout from '@/layouts/CreateWalletLayout';
 
 import app from './app';
