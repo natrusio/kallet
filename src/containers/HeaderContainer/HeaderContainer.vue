@@ -91,7 +91,7 @@
                   @click="scrollTop()"
                   >{{ $t('header.home') }}</b-nav-item
                 >
-                <b-nav-item v-if="isHomePage" href="/#about-mew">
+                <b-nav-item v-if="isHomePage" href="/#/#about-mew">
                   {{ $t('header.about') }}
                 </b-nav-item>
                 <b-nav-item-dropdown
@@ -114,7 +114,7 @@
                     >Ethplorer (Tokens)</b-dropdown-item
                   >
                 </b-nav-item-dropdown>
-                <b-nav-item href="/#/faqs">{{ $t('common.faqs') }}</b-nav-item>
+                <b-nav-item href="/#/#faqs">{{ $t('common.faqs') }}</b-nav-item>
                 <div class="language-menu-container">
                   <div class="arrows">
                     <i class="fa fa-angle-down" aria-hidden="true" />
@@ -159,7 +159,7 @@
                     showGetFreeWallet ? 'show' : 'hide',
                     'get-free-wallet first-button nopadding'
                   ]"
-                  href="/#/create-wallet"
+                  href="/#/#create-wallet"
                 >
                   <div class="get-free-wallet-button">New Wallet</div>
                 </b-nav-item>
@@ -169,7 +169,7 @@
                     showGetFreeWallet ? 'show' : 'hide',
                     'get-free-wallet nopadding'
                   ]"
-                  href="/#/access-my-wallet"
+                  href="/#/#access-my-wallet"
                 >
                   <div class="access-button">Access</div>
                 </b-nav-item>
