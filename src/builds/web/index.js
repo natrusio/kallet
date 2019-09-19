@@ -1,10 +1,13 @@
+import HomeLayout from '@/layouts/HomeLayout';
 import CreateWalletLayout from '@/layouts/CreateWalletLayout';
 
 import app from './app';
 const webRoutes = [
   {
     path: '/',
-    redirect:'privacy-policy'
+    name: 'Home',
+    component: HomeLayout,
+    meta: { requiresAuth: false }
   },
   {
     path: '/create-wallet',

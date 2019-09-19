@@ -8,6 +8,6 @@ const getRoutes = () => {
   return require(`@/builds/${BUILD_TYPE}`).configRoutes(baseRoutes);
 };
 const getMode = () => {
-  return ROUTER_MODE || 'hash';
+  return 'history';
 };
 export { getApp, getMode, getRoutes };
